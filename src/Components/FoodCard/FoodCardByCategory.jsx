@@ -61,7 +61,7 @@ const FoodCardByCategory = ({ item }) => {
 
                     }
                    
-                    axios.post('http://localhost:5000/cart',cartData)
+                    axios.post('https://serverforfoodies.vercel.app/cart',cartData)
                     .then(res => 
                     {
                       Swal.fire({

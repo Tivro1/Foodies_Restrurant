@@ -10,7 +10,7 @@ const useAxiosWithInterceptors = () => {
 
   // Create Axios instance
   const axiosInstance = axios.create({
-    baseURL: "http://localhost:5000",
+    baseURL: "https://serverforfoodies.vercel.app",
   });
 
   // Request Interceptor

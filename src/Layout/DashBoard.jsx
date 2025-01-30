@@ -1,5 +1,5 @@
 import { NavLink, Outlet } from "react-router-dom";
-// import useAdmin from "../Hooks/useAdmin";
+import useAdmin from "../Hooks/useAdmin";
 
 const DashBoard = () => {
     const [isActive ]= useAdmin();

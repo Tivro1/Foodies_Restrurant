@@ -25,7 +25,7 @@ const handelDelet = (id)=>
       }).then((result) => {
         if (result.isConfirmed) {
     
-        axios.delete(`http://localhost:5000/carts/${id}` )
+        axios.delete(`https://serverforfoodies.vercel.app/carts/${id}` )
         .then(res=>
         {
             Swal.fire({

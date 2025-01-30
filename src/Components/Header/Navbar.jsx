@@ -34,7 +34,7 @@ const Navbar = () => {
       <div className="flex flex-row gap-3 items-center">
         <div className="flex gap-3">
           <NavLink to="/">HOME</NavLink>
-          <NavLink to="/contact">CONTACTUS</NavLink>
+         
           <NavLink to="dashboard">DASHBOARD</NavLink>
           <NavLink to="/menue">OUR MENUE</NavLink>
           <NavLink to="/shop">OUR SHOP</NavLink>

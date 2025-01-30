@@ -36,7 +36,7 @@ const Login = () => {
         try {
             await signIn(email, password);
             alert('Login successful!');
-            axios.post('http://localhost:5000/users',senduserInfo)
+            axios.post('https://serverforfoodies.vercel.app/users',senduserInfo)
             .then(res =>
             {
                 Swal.fire({
@@ -67,7 +67,7 @@ const Login = () => {
                     email:result.user?.email,
                     name:result.user?.displayName
                  }
-                 axios.post('http://localhost:5000/users',userInfo)
+                 axios.post('https://serverforfoodies.vercel.app/users',userInfo)
             .then(res =>
             {
                 Swal.fire({

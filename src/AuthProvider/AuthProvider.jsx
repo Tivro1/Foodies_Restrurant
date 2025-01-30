@@ -56,7 +56,7 @@ const AuthProvider = ({ children }) => {
             if(currentUser)
             {
                       const userInfo={email:currentUser.email};
-                      axios.post('http://localhost:5000/jwt',userInfo)
+                      axios.post('https://serverforfoodies.vercel.app/jwt',userInfo)
                       .then(res =>
                       {
                         console.log(res);

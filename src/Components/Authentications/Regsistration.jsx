@@ -29,7 +29,7 @@ const Regsistration = () => {
                 }
                 console.log(res.user.email);
                 console.log(res);
-                axios.post('http://localhost:5000/users',senduserInfo)
+                axios.post('https://serverforfoodies.vercel.app/users',senduserInfo)
                 .then(res =>
                 {
                     Swal.fire({

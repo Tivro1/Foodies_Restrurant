@@ -23,7 +23,7 @@ const Users = () => {
       }).then((result) => {
         if (result.isConfirmed) {
     
-        axios.patch(`http://localhost:5000/users/${user._id}` )
+        axios.patch(`https://serverforfoodies.vercel.app/users/${user._id}` )
         .then(res=>
         {
             Swal.fire({
@@ -56,7 +56,7 @@ const Users = () => {
           }).then((result) => {
             if (result.isConfirmed) {
         
-            axios.delete(`http://localhost:5000/users/${id._id}` )
+            axios.delete(`https://serverforfoodies.vercel.app/users/${id._id}` )
             .then(res=>
             {
                 Swal.fire({
